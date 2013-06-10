@@ -6,7 +6,7 @@
 /*
 Plugin Name: BMS Bodyclass Slug
 Plugin URI: http://bigmikestudios.com
-Description: adds slug-[slug] and decendant-slug-[slug] to the bodyclass
+Description: adds slug-[slug] and decendant-slug-[slug] to the bodyclass. Credit also belongs to the author of this post: http://www.wpbeginner.com/wp-themes/how-to-add-page-slug-in-body-class-of-your-wordpress-themes/
 Version: 0.0.1
 Author URI: http://bigmikestudios.com
 */
