@@ -18,7 +18,7 @@ function add_slug_body_class( $classes ) {
 	if ( isset( $post ) ) {
 	$classes[] = 'slug-' . $post->post_name;
 	}
-	$parent = $post->post_parent;
+	$parent = (isset($post->post_parent)) ? $post->post_parent : NULL;
 	while ($parent > 0)  {
 		$parent_post = get_post($parent);
 		$classes[]= 'descendant-slug-'.$parent_post->post_name;
