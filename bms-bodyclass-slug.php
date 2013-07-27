@@ -15,8 +15,8 @@ Author URI: http://bigmikestudios.com
 //Page Slug Body Class
 function add_slug_body_class( $classes ) {
 	global $post;
-	if ( isset( $post ) ) {
-	$classes[] = 'slug-' . $post->post_name;
+	if ( isset( $post->post_name ) ) {
+		$classes[] = 'slug-' . $post->post_name;
 	}
 	$parent = (isset($post->post_parent)) ? $post->post_parent : NULL;
 	while ($parent > 0)  {
